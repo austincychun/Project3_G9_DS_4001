@@ -31,9 +31,24 @@ This repository is structured to organize the project's data, scripts, and outpu
 
 ### 2: A Map of your documentation
 
-The following outline illustrates the hierarchy of folders and subfolders contained in the Project Folder, listing the files stored in each folder or subfolder.
-Project3_G9_DS_4001/ ├── DATA/ │ ├── raw_data.csv # The initial, unprocessed dataset. │ └── cleaned_data.csv # The final dataset after preprocessing and cleaning. ├── OUTPUT/ │ ├── final_model.pkl # The serialized machine learning model object. │ ├── results_summary.txt # A text file summarizing key findings. │ └── figure_1.png # A key visualization/figure generated from the analysis. ├── SCRIPTS/ │ ├── 01_data_cleaning.ipynb # Notebook for data ingestion and preprocessing. │ ├── 02_analysis_and_model.py # Main Python script for model training and evaluation. │ └── 03_visualization.ipynb # Notebook for generating project visuals. ├── LICENSE # MIT License for the project. ├── README.md # This file. └── references # A plain text file listing all external data and literature sources.
+The following outline illustrates the hierarchy of folders and files contained in the Project Folder:
 
+```text
+Project3_G9_DS_4001/
+├── DATA/
+│   ├── raw_data.csv          # The initial, unprocessed dataset.
+│   └── cleaned_data.csv      # The final dataset after preprocessing and cleaning.
+├── OUTPUT/
+│   ├── final_model.pkl       # The serialized machine learning model object.
+│   ├── results_summary.txt   # A text file summarizing key findings.
+│   └── figure_1.png          # A key visualization/figure generated from the analysis.
+├── SCRIPTS/
+│   ├── 01_data_cleaning.ipynb    # Notebook for data ingestion and preprocessing.
+│   ├── 02_analysis_and_model.py  # Main Python script for model training and evaluation.
+│   └── 03_visualization.ipynb    # Notebook for generating project visuals.
+├── LICENSE                     # MIT License for the project.
+├── README.md                   # This file.
+└── references                  # A plain text file listing all external data and literature sources.****
 ### 3: Instructions for Reproducing your Results
 
 1.  **Clone the Repository:**
