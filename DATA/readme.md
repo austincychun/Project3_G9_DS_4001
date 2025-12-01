@@ -43,7 +43,11 @@ The metadata is provided for educational and research purposes.
 **Plot 1: Distribution of Subject Types**
 As outlined in our analysis plan, we examined the dataset for class imbalance. The pie chart below (extracted from our MI2 report) illustrates the breakdown of the most common subject types.
 ![Subject Distribution](./subject_distribution.png)
+<img width="766" height="790" alt="graph1" src="https://github.com/user-attachments/assets/f1dae627-da6b-4ae2-8bba-5f5dc544bafb" />
+
 
 **Plot 2: Data Split Distribution**
 This chart visualizes how the dataset is partitioned into training, testing, and validation sets.
 ![Subset Distribution](./subset_distribution.png)
+<img width="794" height="504" alt="graph2" src="https://github.com/user-attachments/assets/e845108c-f110-4177-86c3-a26ea08e5c62" />
+
